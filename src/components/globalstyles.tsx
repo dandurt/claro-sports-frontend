@@ -21,4 +21,8 @@ export default createGlobalStyle`
     body, #__next {
         overflow: auto;
     }
+
+    main {
+        height: 100%;
+    }
 `;

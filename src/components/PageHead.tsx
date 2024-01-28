@@ -12,7 +12,7 @@ const PageHead = () => (
     <link
       rel="shortcut icon"
       type="image/x-icon"
-      href="static/icons/favicon.ico"
+      href="/static/favicon.ico"
     ></link>
   </Head>
 );

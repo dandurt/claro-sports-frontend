@@ -4,3 +4,17 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "Exo-Bold";
+  src: url("../font/Exo-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Exo-ExtraBold";
+  src: url("../font/Exo-ExtraBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
