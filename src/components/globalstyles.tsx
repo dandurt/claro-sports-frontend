@@ -25,4 +25,5 @@ export default createGlobalStyle`
     main {
         height: 100%;
     }
+
 `;
