@@ -6,10 +6,14 @@ import {
   sochiEventDate,
 } from "constants/countdown";
 import { Countdown } from "interfaces/countdown.interface";
-import React from "react";
+import React, { ReactNode } from "react";
 import { BehaviorSubject, interval, map, takeWhile, tap } from "rxjs";
 
-const CountDownContainer = ({ render }) => {
+const CountDownContainer = ({
+  render,
+}: {
+  render: (countdown: Countdown) => ReactNode;
+}) => {
   const [countdownData, setCountdownData] = React.useState<Countdown>({
     secondsToDate: 0,
     minutesToDate: 0,

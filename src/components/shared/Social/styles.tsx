@@ -9,6 +9,7 @@ export const Wrapper = styled.div`
 export const Container = styled.div`
   width: 20px;
   height: 20px;
+  cursor: pointer;
 `;
 
 export const Img = styled.img`
