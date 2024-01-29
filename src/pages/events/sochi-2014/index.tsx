@@ -6,7 +6,7 @@ const SochiPage = () => <Sochi />;
 
 export const getStaticProps = async ({ locale }) => ({
   props: {
-    ...(await serverSideTranslations(locale, ["common", "pages"])),
+    ...(await serverSideTranslations(locale, ["common", "pages", "shared"])),
   },
 });
 
